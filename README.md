@@ -6,14 +6,14 @@ A **web-based recipe management application** built with PHP, MySQL, and Apache.
 
 ## 1. Prerequisites  
 - MAMP (Apache & MySQL)  
-- Copy the `recipe_project` folder into the `htdocs` directory of MAMP.  
+- Copy the `recipe-project` folder into the `htdocs` directory of MAMP.  
 
 ---
 
 ## 2. Database Setup  
 1. Start Apache and MySQL via MAMP.  
 2. Open [phpMyAdmin](http://localhost/phpmyadmin).  
-3. Create a database named **`projet2`** and import the SQL files in `recipe_project/sql/`:  
+3. Create a database named **`projet2`** and import the SQL files in `recipe-project/sql/`:  
    - **`recettes.sql`** → stores recipes (15 preloaded recipes, modifiable only by admin).  
    - **`accounts.sql`** → stores user accounts.  
    - **`sessions.sql`** → stores active sessions.  
@@ -21,7 +21,7 @@ A **web-based recipe management application** built with PHP, MySQL, and Apache.
 ---
 
 ## 3. Launching the Application  
-- Open: [http://localhost/recipe_project/pages/landing.php](http://localhost/recipe_project/pages/landing.php)  
+- Open: [http://localhost/recipe-project/pages/landing.php](http://localhost/recipe_project/pages/landing.php)  
 - **Admin login**:  
   - Email: `admin@admin.com`  
   - Password: `ift3225`  
@@ -29,7 +29,7 @@ A **web-based recipe management application** built with PHP, MySQL, and Apache.
 ---
 
 ## 4. REST API Routes  
-**Base URL**: `http://localhost/recipe_project/api/`  
+**Base URL**: `http://localhost/recipe-project/api/`  
 
 - **GET** `recette/recherche.php` → Search recipes (supports keyword, category, user filter, pagination).  
 - **POST** `recette/add.php` → Add a new recipe.  

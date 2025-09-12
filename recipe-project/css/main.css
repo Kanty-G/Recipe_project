@@ -1,0 +1,43 @@
+body {
+    overflow-x: hidden;
+}
+
+.list {
+    padding: 50px;
+}
+
+.recette {
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+.card {
+    margin: 1vw;
+}
+
+.card-img-top {
+    height: 10vw;
+    width: 100%;
+    object-fit: cover;
+}
+#detailRecetteImage {
+    width: 50%;
+
+  }
+#nav_pag {
+    display: flex;
+    justify-content: center;
+    padding: 0
+}
+
+.btn_bar {
+    padding-right: 0;
+}
+
+#ajout_recette {
+    padding-top: 0;
+}
+
+.page-link {
+    cursor: pointer;
+}

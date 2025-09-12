@@ -21,7 +21,7 @@ A **web-based recipe management application** built with PHP, MySQL, and Apache.
 ---
 
 ## 3. Launching the Application  
-- Open: [http://localhost/TP2/pages/landing.php](http://localhost/recipe_project/pages/landing.php)  
+- Open: [http://localhost/recipe_project/pages/landing.php](http://localhost/recipe_project/pages/landing.php)  
 - **Admin login**:  
   - Email: `admin@admin.com`  
   - Password: `ift3225`  

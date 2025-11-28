@@ -13,7 +13,7 @@ A **web-based recipe management application** built with PHP, MySQL, and Apache.
 ## 2. Database Setup  
 1. Start Apache and MySQL via MAMP.  
 2. Open [phpMyAdmin](http://localhost/phpmyadmin).  
-3. Create a database named **`projet2`** and import the SQL files in `recipe-project/sql/`:  
+3. Create a database named **`project2`** and import the SQL files in `recipe-project/sql/`:  
    - **`recettes.sql`** → stores recipes (15 preloaded recipes, modifiable only by admin).  
    - **`accounts.sql`** → stores user accounts.  
    - **`sessions.sql`** → stores active sessions.  
